@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Slot Machine IWD Casinos
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/slotsStyle.css"/>
+        <script src="js/game.js"></script>
+    </head>
+    <body onload="gameStartup();" >
+        <h1>Slot Machine #111 - IWD Casinos</h1>
+        <br>
+
+        <!-- The slots -->
+        <div>
+            <img id="imgSlot1" src="dollarSign.png"/>
+            <img id="imgSlot2"  src="dollarSign.png"/>
+            <img id="imgSlot3"  src="dollarSign.png"/>
+        </div>
+
+        <hr>
+
+        <!-- The information panel -->
+        <div>
+            <p id="pCashOnHand">
+                [Your Cash on hand]
+            </p>
+            <p>
+                <input type="number" id="tbBetInput" placeholder="$1000" onblur="validBet(this.value);" />
+
+                <input type="button" value="PLAY" id="btnPlay" onclick="playSlots();"/>
+            </p>
+
+        </div>
+
+        <hr>
+
+        <!-- The log -->
+        <div id="slotsOutput">
+            [OUTPUT HERE]
+        </div>
+
+
+
+        <hr>
+    </body>
+</html>

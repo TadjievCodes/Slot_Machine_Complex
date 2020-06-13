@@ -1,0 +1,24 @@
+.playButton {
+    background-color: green;
+}
+
+.notPlayButton {
+    background-color: red;
+}
+
+.imgSlot {
+    width: 100px;
+    height: 100px;
+}
+
+.SevereErrorStyle {
+    border: 2px solid red;
+}
+
+.WarningErrorStyle {
+    border: 2px solid orange;
+}
+
+.NoErrorStyle {
+    border: 2px solid green;
+}
